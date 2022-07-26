@@ -14,7 +14,7 @@ organizations:
     url: https://www.BMBWF.gv.at/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: Ich interessiere mich für Themen wie IRT, Multistage-Testen, R, HTML, RCPP, ...
 
 # Interests to show in About widget
 interests:
