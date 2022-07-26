@@ -91,9 +91,9 @@ In-line math: $x + y = z$
 
 Block math:
 <!-- <div> -->
-  ![formula](https://render.githubusercontent.com/render/math?math=f\left( x \right) = \;\frac{{2\left( {x + 4} \right)\left( {x - 4} \right)}}{{\left( {x + 4} \right)\left( {x + 1} \right)}})
+  ![formula](https://render.githubusercontent.com/render/math?math=f\left( x \right) = \;\frac{2\left( {x + 4} \right)\left( {x - 4} \right)}{\left( {x + 4} \right)\left( {x + 1} \right)})
 <!-- </div> -->
-
+$f\left( x \right) = \;\frac{2\left( {x + 4} \right)\left( {x - 4} \right)}{\left( {x + 4} \right)\left( {x + 1} \right)}$
 ---
 
 ## Fragments
