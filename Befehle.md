@@ -1,0 +1,2 @@
+Befehle
+hugo server -D
