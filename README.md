@@ -12,3 +12,25 @@ Dies ist das Repo für meine Homepage. Die Homepage wurde mit [Hugo](https://git
 - [PP Package](https://jansteinfeld.github.io/PP/)
 - [Sammlung von Wohnungen](https://jansteinfeld.github.io/GeWo/)
 <!--END_SECTION:Seiten-->
+
+Some commands:
+Error: from config: failed to resolve output format "headers" from site config
+
+config/_default/config.yamlを開き、outputsの項目を[RSS, JSON, WebAppManifest]に（一時的に）書き換える
+outputs:
+  home: []
+
+その後、hugo コマンドから go modules を更新する
+$ hugo mod clean
+$ hugo mod get -u
+$ hugo mod tidy
+
+outputs:
+  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+
+
+$ hugo mod clean
+Error: from config: failed to resolve output format "headers" from site config
+
+hugo server
+
