@@ -21,16 +21,12 @@ feature:
     icon_pack: fab
     name: R
   - description: 100%
-    icon: stats-dots
-    icon_pack: iconmoon
-    name: Statistics
-  - description: 100%
     icon: chart-line
     icon_pack: fas
     name: Statistics
   - description: 50%
     icon: code
-    icon_pack: fas
+    icon_pack: fa
     name: HTML
   - description: 50%
     icon: icons8-c-sharp-logo-50 # https://icons8.com/icons/set/c%2B%2B--blue
