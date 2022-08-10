@@ -22,28 +22,38 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Psychometrician
+  - title: Psychometriker
     company: BMBWF
     company_url: ''
-    company_logo: org-gc
-    location: Vienna
-    date_start: '2021-01-01'
+    company_logo: BMBWF_Logo_srgb_engl
+    location: Wien
+    date_start: '2017-01-01'
     date_end: ''
     description: |2-
-        Responsibilities include:
+        Responsibles inlcude:
         
-        * Analysing
-        * Modelling
-        * Deploying
+        * Datenanalyse
+        * Erstellung von Testdesigns
+        * Skalierung von Aufgaben
 
-  - title: Professor of Semiconductor Physics
-    company: University X
+  - title: Psychometriker
+    company: BIFIE
     company_url: ''
-    company_logo: org-x
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2020-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    company_logo: bifie_mitschriftzug_4c
+    location: Wien
+    date_start: '2011-07-01'
+    date_end: '2016-12-31'
+    description: Aufgabenbereich waren die Erstellung von Testdesigns, Skalierung von Aufgaben
+
+  - title: Studentischer Mitarbeiter
+    company: University of Vienna
+    company_url: ''
+    company_logo: UniWien_CMYK_A4
+    location: Wien
+    date_start: '2010-01-01'
+    date_end: '2012-06-30'
+    description: Studentischer Mitarbeiter
+    
 
 design:
   columns: '2'
