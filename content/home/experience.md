@@ -52,7 +52,7 @@ experience:
     location: Wien
     date_start: '2010-01-01'
     date_end: '2012-06-30'
-    description: Studentischer Mitarbeiter
+    description: Studentischer Mitarbeiter am Arbeitsbereich Psychologische Diagnostik (Univ.-Prof. Dr. Mag. Klaus D. Kubinger)
     
 
 design:
