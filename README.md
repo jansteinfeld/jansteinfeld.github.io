@@ -35,4 +35,6 @@ Error: from config: failed to resolve output format "headers" from site config
 hugo server
 
 Ein paar Dinge, die noch umgesetzt werden sollten:
-
+- Titelseite anpassen
+- Literaturverzeichnis
+- Links zu github?
