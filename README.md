@@ -38,3 +38,5 @@ Ein paar Dinge, die noch umgesetzt werden sollten:
 - Titelseite anpassen
 - Literaturverzeichnis
 - Links zu github?
+- weitere Projekte?
+- 
