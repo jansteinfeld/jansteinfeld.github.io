@@ -39,4 +39,4 @@ Ein paar Dinge, die noch umgesetzt werden sollten:
 - Literaturverzeichnis
 - Links zu github?
 - weitere Projekte?
-- 
+- fingerprint bzw. gpg public key veröffentlichen
