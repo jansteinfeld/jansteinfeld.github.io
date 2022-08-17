@@ -40,3 +40,4 @@ Ein paar Dinge, die noch umgesetzt werden sollten:
 - Links zu github?
 - weitere Projekte?
 - fingerprint bzw. gpg public key veröffentlichen
+- auf weiteren Seiten noch Inspiration holen
