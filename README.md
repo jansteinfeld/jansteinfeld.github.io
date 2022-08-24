@@ -25,6 +25,12 @@ $ hugo mod clean
 $ hugo mod get -u
 $ hugo mod tidy
 
+
+hugo mod clean
+hugo mod get -u ./...
+hugo server
+
+
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
 
@@ -32,7 +38,11 @@ outputs:
 $ hugo mod clean
 Error: from config: failed to resolve output format "headers" from site config
 
-hugo server
+
+hugo -v --debug -D
+
+
+hugo server -D
 
 Ein paar Dinge, die noch umgesetzt werden sollten:
 - Titelseite anpassen
