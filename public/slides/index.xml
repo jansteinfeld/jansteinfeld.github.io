@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Slides | Jan Steinfeld</title>
-    <link>https://www.jansteinfeld.com/slides/</link>
-      <atom:link href="https://www.jansteinfeld.com/slides/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jansteinfeld.github.io/slides/</link>
+      <atom:link href="https://jansteinfeld.github.io/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>de</language><lastBuildDate>Tue, 05 Feb 2019 00:00:00 +0000</lastBuildDate>
     <item>
       <title>Slides</title>
-      <link>https://www.jansteinfeld.com/slides/example/</link>
+      <link>https://jansteinfeld.github.io/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>https://www.jansteinfeld.com/slides/example/</guid>
+      <guid>https://jansteinfeld.github.io/slides/example/</guid>
       <description>&lt;script type=&#34;text/javascript&#34;
   src=&#34;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML&#34;&gt;
 &lt;/script&gt;
