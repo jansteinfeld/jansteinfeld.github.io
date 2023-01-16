@@ -9,29 +9,34 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
-title: Skills
+title: Sprachen & Themen
 subtitle:
 
 # Showcase personal skills or business features.
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-  - description: 100%
+  - description: #100%
     icon: r-project
     icon_pack: fab
     name: R
-  - description: 100%
-    icon: chart-line
-    icon_pack: fas
-    name: Statistics
-  - description: 50%
-    icon: code
-    icon_pack: fa
-    name: HTML
-  - description: 50%
+  - description: #50%
     icon: icons8-c-sharp-logo-50 # https://icons8.com/icons/set/c%2B%2B--blue
     icon_pack: custom
     name: Rcpp
+  - description: #50%
+    icon: code
+    icon_pack: fa
+    name: HTML
+  - description: # 100%
+    icon: chart-line
+    icon_pack: fas
+    name: Statistics
+  - description: #50%
+    icon: pen-ruler
+    icon_pack: fa
+    name: IRT
+
 # Uncomment to use emoji icons.
 #- icon: ":smile:"
 #  icon_pack: "emoji"
