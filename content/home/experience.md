@@ -30,7 +30,7 @@ experience:
     date_start: '2017-01-01'
     date_end: ''
     description: |2-
-        Responsibles inlcude:
+        Tätigkeiten:
         
         * Datenanalyse
         * Erstellung von Testdesigns
