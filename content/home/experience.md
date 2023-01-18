@@ -14,7 +14,7 @@ subtitle:
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
-date_format: Jan 2006
+date_format: Jan 2023
 
 # Experiences.
 #   Add/remove as many `experience` items below as you like.
@@ -31,7 +31,6 @@ experience:
     date_end: ''
     description: |2-
         Tätigkeiten:
-        
         * Datenanalyse
         * Erstellung von Testdesigns
         * Skalierung von Aufgaben
