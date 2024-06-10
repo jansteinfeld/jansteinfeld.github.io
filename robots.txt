@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://jansteinfeld.github.io/al-folio/sitemap.xml
+Sitemap: https://jansteinfeld.github.io/sitemap.xml
