@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<p style="font-size:150%; font-weight:bold; width:100%;display:grid;align-content:center;">Jan D. Steinfeld</p>
+<p>Jan D. Steinfeld</p>
 
 
 
