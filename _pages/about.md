@@ -5,7 +5,7 @@ permalink: /
 subtitle:
 
 profile:
-  align: left
+  align: right
   image: jansteinfeld_v1.png
   image_circular: true # crops the image to make it circular
   more_info: #><p>Wien, Österreich</p>
@@ -15,7 +15,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-<font size="+2">**Jan D. Steinfeld**</font>
+<p style="font-size:150%; width:100%;display:grid;align-content:center;">**Jan D. Steinfeld**</p>
+
 
 <!--Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder. -->
 
