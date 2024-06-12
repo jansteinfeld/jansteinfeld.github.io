@@ -1135,17 +1135,22 @@ ninja-keys::part(ninja-input-wrapper) {
 
 
 // customized CSS
-.profile>img {
-  display: block;
-  border-radius: 50%;
+.profile img {
+  // border: 1px solid;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%!important;
   margin: 0 auto;
-  max-height: 80%;
+  width: 250px;
+  height: 250px;
+  // max-height: 50%!important;
   max-width: 100%;
 }
+
 .clearfix {
   font-size: 150%;
   font-weight: bold;
-  width: 100%;
+  // width: 50%;
   display: grid;
   align-content: center;
 }
