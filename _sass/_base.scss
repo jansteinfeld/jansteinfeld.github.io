@@ -1,5 +1,6 @@
 /*******************************************************************************
  * Styles for the base elements of the theme.
+ * customize at the end
  ******************************************************************************/
 
 // Typography
@@ -1129,4 +1130,22 @@ ninja-keys::part(ninja-input) {
 }
 ninja-keys::part(ninja-input-wrapper) {
   background: var(--global-bg-color);
+}
+
+
+
+// customized CSS
+.profile>img {
+  display: block;
+  border-radius: 50%;
+  margin: 0 auto;
+  max-height: 80%;
+  max-width: 100%;
+}
+.clearfix {
+  font-size: 150%;
+  font-weight: bold;
+  width: 100%;
+  display: grid;
+  align-content: center;
 }
