@@ -31,6 +31,8 @@ social: true # includes social icons at the bottom of the page
 <button name="button" onclick="/cv/">cv</button>
 <button name="button" onclick="/teaching/">teaching</button>
 <button name="button" onclick="/contact/">contact</button> -->
+<div class="col-sm-6"><a href="/contact" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" style="background-color: #040b5a; border: 0px">Seller Sign-up</a></div>
+
 [Home](/index.html){: .btn .btn-secondary}
 [publications](/publications/index.html){: .btn .btn-secondary}
 [repositories](/repositories/index.html){: .btn .btn-secondary}
