@@ -31,9 +31,9 @@ social: true # includes social icons at the bottom of the page
 <button name="button" onclick="/cv/">cv</button>
 <button name="button" onclick="/teaching/">teaching</button>
 <button name="button" onclick="/contact/">contact</button> -->
-[Home](./index.html){: .btn .btn-secondary}
-[publications](./publications/index.html){: .btn .btn-secondary}
-[repositories](./repositories/index.html){: .btn .btn-secondary}
-[cv](./cv/index.html){: .btn .btn-secondary}
-[teaching](./teaching/index.html){: .btn .btn-secondary}
-[contact](./contact/index.html){: .btn .btn-secondary}
+[Home](/index.html){: .btn .btn-secondary}
+[publications](/publications/index.html){: .btn .btn-secondary}
+[repositories](/repositories/index.html){: .btn .btn-secondary}
+[cv](/cv/index.html){: .btn .btn-secondary}
+[teaching](/teaching/index.html){: .btn .btn-secondary}
+[contact](/contact/index.html){: .btn .btn-secondary}
