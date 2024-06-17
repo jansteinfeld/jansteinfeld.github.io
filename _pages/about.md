@@ -25,9 +25,15 @@ social: true # includes social icons at the bottom of the page
 <!-- Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically. -->
 
 <!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
-<button name="button" onclick="index.html">Home</button>
+<!-- <button name="button" onclick="index.html">Home</button>
 <button name="button" onclick="/publications/">publications</button>
 <button name="button" onclick="/repositories/">repositories</button>
 <button name="button" onclick="/cv/">cv</button>
 <button name="button" onclick="/teaching/">teaching</button>
-<button name="button" onclick="/contact/">contact</button>
+<button name="button" onclick="/contact/">contact</button> -->
+[Home](./index.html){: .btn .btn-secondary}
+[publications](./publications/index.html){: .btn .btn-secondary}
+[repositories](./repositories/index.html){: .btn .btn-secondary}
+[cv](./cv/index.html){: .btn .btn-secondary}
+[teaching](./teaching/index.html){: .btn .btn-secondary}
+[contact](./contact/index.html){: .btn .btn-secondary}
