@@ -29,12 +29,6 @@ body.sticky-bottom-footer {
 
 .container {
   max-width: $max-content-width;
-/* border: 5px solid; */
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
 }
 
 // Profile
