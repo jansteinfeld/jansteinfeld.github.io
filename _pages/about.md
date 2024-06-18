@@ -33,15 +33,26 @@ social: true # includes social icons at the bottom of the page
 <button name="button" onclick="/contact/">contact</button> -->
 
 <div class="row nowrap">
-  <div class="col-sm-2 responsive"><a href="/Home" class="btn btn-secondary btn-block">Home</a></div>
-  <div class="col-sm-2 responsive"><a href="/publications" class="btn btn-secondary btn-block">publications</a></div>
-  <div class="col-sm-2 responsive"><a href="/repositories" class="btn btn-secondary btn-block">repositories</a></div>
-  <div class="col-sm-2 responsive"><a href="/cv" class="btn btn-secondary btn-block">cv</a></div>
-  <div class="col-sm-2 responsive"><a href="/teaching" class="btn btn-secondary btn-block">teaching</a></div>
-  <div class="col-sm-2 responsive"><a href="/contact" class="btn btn-secondary btn-block">contact</a></div>
+  <div class="col-sm-2 responsive"><a href="/Home" class="btn btn-secondary">Home</a></div>
+  <div class="col-sm-2 responsive"><a href="/publications" class="btn btn-secondary">publications</a></div>
+  <div class="col-sm-2 responsive"><a href="/repositories" class="btn btn-secondary">repositories</a></div>
+  <div class="col-sm-2 responsive"><a href="/cv" class="btn btn-secondary">cv</a></div>
+  <div class="col-sm-2 responsive"><a href="/teaching" class="btn btn-secondary">teaching</a></div>
+  <div class="col-sm-2 responsive"><a href="/contact" class="btn btn-secondary">contact</a></div>
 </div>
-<!-- <div class="col-sm-6"><a href="/repositories" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" style="border: 0px">repositories</a></div> -->
-
+<!-- <div class="col-sm-6"><a href="/repositories" class="btn btn-primary fa-lg gradient-custom-2 mb-3" style="border: 0px">repositories</a></div> -->
+<div class="d-flex bg-light border py-1" id="indicative">
+  <button type="button" id="indicative-present"
+    class="btn btn-outline-primary shadow-none disabled flex-fill mx-1">present</button>
+  <button type="button" id="indicative-preterite"
+    class="btn btn-outline-primary shadow-none disabled flex-fill mx-1">preterite</button>
+  <button type="button" id="indicative-imperfect" 
+    class="btn btn-outline-primary shadow-none disabled flex-fill mx-1">imperfect</button>
+  <button type="button" id="indicative-conditional" 
+    class="btn btn-outline-primary shadow-none disabled flex-fill mx-1">conditional</button>
+  <button type="button" id="indicative-future" 
+    class="btn btn-outline-primary shadow-none disabled flex-fill mx-1">future</button>
+</div>  
 
 <!-- [Home](/index.html){: .btn .btn-secondary}
 [publications](/publications/index.html){: .btn .btn-secondary}
