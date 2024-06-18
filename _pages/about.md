@@ -33,12 +33,12 @@ social: true # includes social icons at the bottom of the page
 <button name="button" onclick="/contact/">contact</button> -->
 
 <div class="row">
-  <div class="col-md-2"><a href="/Home" class="btn btn-secondary">Home</a></div>
-  <div class="col-md-2"><a href="/publications" class="btn btn-secondary">publications</a></div>
-  <div class="col-md-2"><a href="/repositories" class="btn btn-secondary">repositories</a></div>
-  <div class="col-md-2"><a href="/cv" class="btn btn-secondary">cv</a></div>
-  <div class="col-md-2"><a href="/teaching" class="btn btn-secondary">teaching</a></div>
-  <div class="col-md-2"><a href="/contact" class="btn btn-secondary">contact</a></div>
+  <div class="col-sm-2"><a href="/Home" class="btn btn-secondary">Home</a></div>
+  <div class="col-sm-2"><a href="/publications" class="btn btn-secondary">publications</a></div>
+  <div class="col-sm-2"><a href="/repositories" class="btn btn-secondary">repositories</a></div>
+  <div class="col-sm-2"><a href="/cv" class="btn btn-secondary">cv</a></div>
+  <div class="col-sm-2"><a href="/teaching" class="btn btn-secondary">teaching</a></div>
+  <div class="col-sm-2"><a href="/contact" class="btn btn-secondary">contact</a></div>
 </div>
 <!-- <div class="col-sm-6"><a href="/repositories" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" style="border: 0px">repositories</a></div> -->
 
