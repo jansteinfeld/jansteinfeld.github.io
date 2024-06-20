@@ -32,13 +32,13 @@ social: true # includes social icons at the bottom of the page
 <button name="button" onclick="/teaching/">teaching</button>
 <button name="button" onclick="/contact/">contact</button> -->
 
-<div class="d-flex nowrap">
-  <div class="flex-fill mx-1"><a href="/Home" class="btn btn-secondary">Home</a></div>
-  <div class="flex-fill mx-1"><a href="/publications" class="btn btn-secondary">publications</a></div>
-  <div class="flex-fill mx-1"><a href="/repositories" class="btn btn-secondary">repositories</a></div>
-  <div class="flex-fill mx-1"><a href="/cv" class="btn btn-secondary">cv</a></div>
-  <div class="flex-fill mx-1"><a href="/teaching" class="btn btn-secondary">teaching</a></div>
-  <div class="flex-fill mx-1"><a href="/contact" class="btn btn-secondary">contact</a></div>
+<div class="d-flex">
+  <div class="flex-fill auto"><a href="/Home" class="btn btn-secondary">Home</a></div>
+  <div class="flex-fill auto"><a href="/publications" class="btn btn-secondary">publications</a></div>
+  <div class="flex-fill auto"><a href="/repositories" class="btn btn-secondary">repositories</a></div>
+  <div class="flex-fill auto"><a href="/cv" class="btn btn-secondary">cv</a></div>
+  <div class="flex-fill auto"><a href="/teaching" class="btn btn-secondary">teaching</a></div>
+  <div class="flex-fill auto"><a href="/contact" class="btn btn-secondary">contact</a></div>
 </div>
 <!-- <div class="col-sm-6"><a href="/repositories" class="btn btn-primary fa-lg gradient-custom-2 mb-3" style="border: 0px">repositories</a></div> -->
 <!-- <div class="d-flex" id="indicative">

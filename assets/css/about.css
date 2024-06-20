@@ -1,5 +1,6 @@
 .container {
-  max-width: $max-content-width;
+  /* max-width: $max-content-width; */
+  max-width: auto !important;
   /* border: 5px solid; */
   position: absolute;
   top: 50%;
@@ -7,7 +8,12 @@
   transform: translate(-50%, -50%);
   padding: 10px;
 }
-
+.clearfix {
+  font-size: 200%;
+  font-weight: bold;
+  display: grid;
+  align-content: center;
+}
 #navbar {
   display:none!important;
 } 
@@ -21,6 +27,13 @@
   /* flex-wrap: wrap; */
   margin-right: -15px;
   margin-left: -15px;
+}
+.btn {
+  margin: 0px;
+}
+.mr-1,
+.mx-1 {
+   margin-right: 0px !important;
 }
 
 @media (max-width: 768px) {
