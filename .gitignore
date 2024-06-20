@@ -13,3 +13,4 @@ vendor
 .idea
 .github/workflows/unused/prettier.yml
 .github/workflows/unused/prettier-comment-on-pr.yml
+_posts/drafts/
