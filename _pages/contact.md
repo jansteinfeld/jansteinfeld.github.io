@@ -1,8 +1,8 @@
 ---
 layout: profiles
-permalink: /people/
-title: people
-description: members of the lab or group
+permalink: /contact/
+title: contact
+description: contact page
 nav: true
 nav_order: 7
 

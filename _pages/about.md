@@ -33,7 +33,7 @@ social: true # includes social icons at the bottom of the page
 <button name="button" onclick="/contact/">contact</button> -->
 
 <div class="d-flex">
-  <div class="flex-fill auto"><a href="/Home" class="btn btn-secondary">Home</a></div>
+  <!-- <div class="flex-fill auto"><a href="/Home" class="btn btn-secondary">Home</a></div> -->
   <div class="flex-fill auto"><a href="/publications" class="btn btn-secondary">publications</a></div>
   <div class="flex-fill auto"><a href="/repositories" class="btn btn-secondary">repositories</a></div>
   <div class="flex-fill auto"><a href="/cv" class="btn btn-secondary">cv</a></div>
