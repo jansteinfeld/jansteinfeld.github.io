@@ -1,12 +1,16 @@
 .container {
   /* max-width: $max-content-width; */
-  min-width: 950px;
+  max-width: 950px;
   /* border: 5px solid; */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
+}
+
+.profile {
+  float: right;
 }
 
 .clearfix {
@@ -47,6 +51,10 @@
     font-size: 11px;
     padding: 4px 6px;
   }
+  .profile {
+  float: none;
+}
+
 }
 
 @media (min-width: 768px) {
@@ -54,6 +62,9 @@
     font-size: 12px;
     padding: 6px 12px;
   }
+  .profile {
+  float: none;
+}
 }
 
 @media (min-width: 992px) {
@@ -61,6 +72,9 @@
     font-size: 14px;
     padding: 8px 12px;
   }
+  .profile {
+  float: none;
+}
 }
 
 @media (min-width: 1200px) {
@@ -68,6 +82,9 @@
     padding: 10px 16px;
     font-size: 18px;
   }
+  .profile {
+  float: none;
+}
 }
 
 footer.fixed-bottom .container {
