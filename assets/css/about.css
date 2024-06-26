@@ -86,7 +86,7 @@
     padding: 10px 16px;
     font-size: 18px;
   } */
-  
+
   .profile {
     float: right;
   }
@@ -101,4 +101,7 @@ footer.fixed-bottom {
 footer.fixed-bottom  a {
   color: #918c8c;
 }
-  
+
+.post article .clearfix .d-flex {
+    display: block !important;
+}
