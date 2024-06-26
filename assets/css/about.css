@@ -55,8 +55,11 @@
 
   .profile {
     float: none;
+    text-align: center;
   }
-
+  .clearfix p {
+    text-align: center;
+  }
 }
 
 @media (min-width: 768px) {
@@ -68,6 +71,7 @@
   .profile {
     float: none;
   }
+
 }
 
 @media (min-width: 992px) {
