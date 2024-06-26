@@ -9,10 +9,6 @@
   padding: 10px;
 }
 
-.profile {
-  float: right;
-}
-
 .clearfix {
   font-size: 200%;
   font-weight: bold;
@@ -51,9 +47,10 @@
     font-size: 11px;
     padding: 4px 6px;
   }
+
   .profile {
-  float: none;
-}
+    float: none;
+  }
 
 }
 
@@ -62,9 +59,10 @@
     font-size: 12px;
     padding: 6px 12px;
   }
+
   .profile {
-  float: none;
-}
+    float: none;
+  }
 }
 
 @media (min-width: 992px) {
@@ -72,9 +70,10 @@
     font-size: 14px;
     padding: 8px 12px;
   }
+
   .profile {
-  float: none;
-}
+    float: none;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -83,12 +82,17 @@
     font-size: 18px;
   }
   .profile {
-  float: none;
-}
+    float: right;
+  }
 }
 
-footer .fixed-bottom {
-    position: fixed;
-    right: 0;
-    bottom: 15px;
+footer.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 15px;
 }
+
+footer.fixed-bottom  a {
+  color: #918c8c;
+}
+  
