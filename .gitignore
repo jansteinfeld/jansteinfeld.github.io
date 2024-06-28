@@ -14,3 +14,4 @@ vendor
 .github/workflows/unused/prettier.yml
 .github/workflows/unused/prettier-comment-on-pr.yml
 _posts/drafts/
+_posts/_drafts/2023-04-24-videos.md
