@@ -1,10 +1,10 @@
-- title: General Information
+- title: Allgemeine Informationen
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Jan Steinfeld
+    # - name: Geburtstag
+    #   value: 14th March 1879
     - name: Languages
       value: English, German
 
