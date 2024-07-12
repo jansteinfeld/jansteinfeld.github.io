@@ -217,6 +217,7 @@ kramdown:
 include: ["_pages"]
 exclude:
   - bin/
+  - _draftpages/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
   - Dockerfile
@@ -230,8 +231,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
-  - _pages/_draft/
   - purgecss.config.js
   - README.md
   - readme_preview/
