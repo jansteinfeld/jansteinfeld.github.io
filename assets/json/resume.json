@@ -1,5 +1,5 @@
 {
-  "Kontakt": {
+  "basic": {
     "name": "Jan Steinfeld",
     "label": "Scientist",
     "image": "",
@@ -22,7 +22,7 @@
       }
     ]
   },
-  "Berufserfahrung": [
+  "work": [
     {
       "name": "Bundesministerium für Bildung, Wissenschaft und Forschung",
       "position": "Vertragsbediensteter",
