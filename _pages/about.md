@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 <!-- <body class="{% if page.style %}{{ page.style }} {% endif %}"> -->
 <p>Jan D. Steinfeld</p>
 <table>
-  <tr><td>Stella-Klein-Löw-Weg</td></tr>
+  <tr><td>Stella-Klein-Löw-Weg 15</td></tr>
   <tr><td>Rund Vier B</td></tr>
   <tr><td>1020, Wien</td></tr>
   <tr><td>Österreich</td></tr>
