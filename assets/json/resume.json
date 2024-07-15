@@ -107,7 +107,7 @@
       ]
     }
   ],
-  "Ausbildung": [
+  "education": [
     {
       "institution": "Universität Wien, Österreich",
       "location": "Wien, Österreich",
@@ -127,7 +127,7 @@
       "endDate": "2011"
     }
   ],
-  "Sprachen": [
+  "languages": [
     {
       "language": "Deutsch",
       "fluency": "Muttersprache",
@@ -144,7 +144,7 @@
       "icon": ""
     }
   ],
-  "Interessen": [
+  "interests": [
     {
       "name": "Psychometrie",
       "icon": "fa-solid fa-tag",
@@ -156,7 +156,7 @@
       ]
     }
   ],
-  "Kenntnisse": [
+  "skills": [
     {
       "name": "Software",
       "icon": "fa-solid fa-tag",
@@ -184,7 +184,7 @@
       ]
     }
   ],
-  "Pakete": [
+  "projects": [
     {
       "name": "Veröffentlichte R-pakete",
       "icon": "fa-solid fa-tag",
