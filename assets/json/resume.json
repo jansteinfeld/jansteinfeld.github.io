@@ -1,5 +1,5 @@
 {
-  "basic": {
+  "basics": {
     "name": "Jan Steinfeld",
     "label": "Scientist",
     "image": "",
@@ -187,8 +187,7 @@
   "projects": [
     {
       "name": "Veröffentlichte R-pakete",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
+      "highlights": [
         "immer",
         "PP",
         "tmt",
