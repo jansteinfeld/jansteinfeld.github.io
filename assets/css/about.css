@@ -68,7 +68,7 @@ html, body {
   background-clip: padding-box;
   object-fit: cover;
   margin: 7px 0 0 5px;
-  float: left;
+  float: right;
   background-size: cover;
   background-position: center center;
 }
@@ -81,9 +81,10 @@ html, body {
   } */
 
    .profile {
-     float: none;
+     float: top;
      text-align: center;
-     width: 40%;
+     /* width: 40%; */
+     margin-left: 25%;
    }
 
    .clearfix p {
@@ -98,8 +99,9 @@ html, body {
   } */
 
    .profile {
-     float: none;
-     width: 40%;
+     float: top;
+     /* width: 40%; */
+     margin-left: 25%;
    }
 
  }
@@ -111,8 +113,9 @@ html, body {
   } */
 
    .profile {
-     float: none;
-     width: 40%;
+     float: top;
+     margin-left: 25%;
+     /* width: 40%; */
    }
  }
 
