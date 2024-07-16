@@ -83,6 +83,10 @@ html, body {
      width: 40%;
      /* margin-left: 40; */
    }
+   
+  .profile img {
+    float: top !important;
+  }
 
    .clearfix p {
      text-align: center;
@@ -101,6 +105,10 @@ html, body {
      /* margin-left: 40; */
    }
 
+  .profile img {
+    float: top !important;
+  }
+
  }
 
  @media (min-width: 992px) {
@@ -114,6 +122,10 @@ html, body {
      width: 40%;
      /* margin-left: 40; */
    }
+
+  .profile img {
+    float: top !important;
+  }
  }
 
  @media (min-width: 1200px) {
@@ -127,6 +139,10 @@ html, body {
      width: 40%;
     /* margin-left: 40; */
    }
+
+  .profile img {
+    float: top !important;
+  }
  }
 
  footer.fixed-bottom {
