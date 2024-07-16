@@ -55,9 +55,6 @@ html, body {
   text-align: left;
 }
 
-
-
-
 .profile img {
   position: relative;
   overflow: hidden;
@@ -83,8 +80,8 @@ html, body {
    .profile {
      float: top;
      text-align: center;
-     /* width: 40%; */
-     margin-left: 25%;
+     width: 40%;
+     /* margin-left: 40; */
    }
 
    .clearfix p {
@@ -100,8 +97,8 @@ html, body {
 
    .profile {
      float: top;
-     /* width: 40%; */
-     margin-left: 25%;
+     width: 40%;
+     /* margin-left: 40; */
    }
 
  }
@@ -114,8 +111,8 @@ html, body {
 
    .profile {
      float: top;
-     margin-left: 25%;
-     /* width: 40%; */
+     width: 40%;
+     /* margin-left: 40; */
    }
  }
 
@@ -128,6 +125,7 @@ html, body {
    .profile {
      float: right;
      width: 40%;
+    /* margin-left: 40; */
    }
  }
 
