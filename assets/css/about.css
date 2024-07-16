@@ -5,7 +5,7 @@ html, body {
 
  .container {
    /* max-width: $max-content-width; */
-   max-width: 950px;
+   max-width: 800px;
    /* border: 5px solid; */
    position: absolute;
    top: 50%;
@@ -62,18 +62,11 @@ html, body {
   position: relative;
   overflow: hidden;
   border-radius: 50%!important;
-  margin-left: 0 auto;
   width: 250px;
   height: 250px;
   max-width: 100%;
-  /* width: 60px; */
-  /* height: 60px; */
-  /* -webkit-border-radius: 60px; */
-  /* -webkit-background-clip: padding-box; */
-  /* -moz-border-radius: 60px; */
-  /* -moz-background-clip: padding; */
-  /* border-radius: 60px; */
   background-clip: padding-box;
+  object-fit: cover;
   margin: 7px 0 0 5px;
   float: left;
   background-size: cover;
@@ -90,6 +83,7 @@ html, body {
    .profile {
      float: none;
      text-align: center;
+     width: 40%;
    }
 
    .clearfix p {
@@ -105,6 +99,7 @@ html, body {
 
    .profile {
      float: none;
+     width: 40%;
    }
 
  }
@@ -117,6 +112,7 @@ html, body {
 
    .profile {
      float: none;
+     width: 40%;
    }
  }
 
@@ -128,6 +124,7 @@ html, body {
 
    .profile {
      float: right;
+     width: 40%;
    }
  }
 
