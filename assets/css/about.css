@@ -63,7 +63,7 @@ body {
   border-radius: 50% !important;
   width: 250px;
   height: 250px;
-  max-width: 100%;
+  max-width: none;
   background-clip: padding-box;
   object-fit: cover;
   margin: 7px 0 0 5px;
