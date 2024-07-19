@@ -124,7 +124,9 @@ body {
   }
 
 }
-
+.img-fluid {
+  display: none !important;
+  }
 
 @media (max-width: 768px) {
   /* .btn {
@@ -142,9 +144,9 @@ body {
     float: top !important;
   }
 
-  .clearfix p {
+  /* .clearfix p {
     text-align: center;
-  }
+  } */
 }
 
 footer.fixed-bottom {
