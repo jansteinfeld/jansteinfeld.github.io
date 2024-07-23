@@ -19,6 +19,7 @@ layout: default
       {% if page.description %}
         <p class="post-description">{{ page.description }}</p>
       {% endif %}
+      <link rel="stylesheet" href="{{ '/assets/css/cv.css' | relative_url | bust_css_cache }}">
     </header>
 
     <article>
