@@ -45,10 +45,6 @@ body {
   margin-left: -15px;
 }
 
-.btn {
-  margin: 1px;
-}
-
 .mr-1,
 .mx-1 {
   margin-right: 0px !important;
@@ -57,6 +53,10 @@ body {
 .btn {
   padding: 10px 16px;
   font-size: 18px;
+  margin: 1px;
+  border: 1px solid;
+  border-radius: 8px;
+  margin: 6px 12px 6px 0;
 }
 
 .clearfix p {
