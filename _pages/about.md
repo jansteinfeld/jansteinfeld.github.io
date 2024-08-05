@@ -41,10 +41,10 @@ social: true # includes social icons at the bottom of the page
 
 <div class="d-flex">
   <!-- <div class="flex-fill auto"><a href="/Home" class="btn btn-secondary">Home</a></div> -->
-  <div class="flex-fill auto float-left"><a href="/publications" class="btn btn-secondary">publications</a></div>
-  <div class="flex-fill auto float-left"><a href="/repositories" class="btn btn-secondary">repositories</a></div>
-  <div class="flex-fill auto float-left"><a href="/cv" class="btn btn-secondary">cv</a></div>
-  <div class="flex-fill auto float-left"><a href="/Lehre" class="btn btn-secondary">Lehre</a></div>
+  <div class="flex-fill auto float-left"><a href="/publications" class="btn btn-secondary rounded-lg">publications</a></div>
+  <div class="flex-fill auto float-left"><a href="/repositories" class="btn btn-secondary rounded-lg">repositories</a></div>
+  <div class="flex-fill auto float-left"><a href="/cv" class="btn btn-secondary rounded-lg">cv</a></div>
+  <div class="flex-fill auto float-left"><a href="/Lehre" class="btn btn-secondary rounded-lgs">Lehre</a></div>
   <!-- <div class="flex-fill auto float-left"><a href="/contact" class="btn btn-secondary">contact</a></div> -->
 </div>
 <!-- <div class="col-sm-6"><a href="/repositories" class="btn btn-primary fa-lg gradient-custom-2 mb-3" style="border: 0px">repositories</a></div> -->
