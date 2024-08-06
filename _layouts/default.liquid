@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
     {% endfor %}
   {% endif %}
-  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
   </head>
 
   <!-- Body -->
@@ -81,6 +81,7 @@
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
     <script src="{{ '/assets/js/shortcut-key.js' | relative_url }}"></script>
+    <script type="module" src="/assets/js/cookieconsent-config.js"></script>
     {% include cookie-consent.html %}
     <script src="{{ 'assets/css/cookieconsent.min.js' | absolute_url  }}"></script>
   </body>
