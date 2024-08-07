@@ -1,4 +1,4 @@
-import 'cookieconsent.umd.js';
+import 'https://jansteinfeld.github.io/assets/js/cookieconsent.umd.js';
 
 // Enable dark mode
 document.documentElement.classList.add('cc--darkmode');
