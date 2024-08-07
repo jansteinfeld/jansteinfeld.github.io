@@ -81,8 +81,6 @@
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
     <script src="{{ '/assets/js/shortcut-key.js' | relative_url }}"></script>
-    <script type="module" src="/assets/js/cookieconsent-config.js"></script>
-    {% include cookie-consent.html %}
-    <script src="{{ 'assets/css/cookieconsent.min.js' | absolute_url  }}"></script>
+    <script type="module" src="{{ '/assets/js/cookieconsent-config.js' | relative_url }}"></script>
   </body>
 </html>

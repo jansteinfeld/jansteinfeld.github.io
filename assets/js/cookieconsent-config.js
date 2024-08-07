@@ -37,7 +37,7 @@ CookieConsent.run({
                     acceptAllBtn: "Alle akzeptieren",
                     acceptNecessaryBtn: "Alle ablehnen",
                     showPreferencesBtn: "Einstellungen verwalten",
-                    footer: "<a href=\"https://jansteinfeld.github.io/assets/pdf/Datendschutzerklaerung.pdf\">Datenschutz</a>\n"
+                    footer: "<a href=\"/assets/pdf/Datendschutzerklaerung.pdf\">Datenschutz</a>\n"
                 },
                 preferencesModal: {
                     title: "Präferenzen für die Zustimmung",
@@ -85,7 +85,7 @@ CookieConsent.run({
                     acceptAllBtn: "Accept all",
                     acceptNecessaryBtn: "Reject all",
                     showPreferencesBtn: "Manage preferences",
-                    footer: "<a href=\"https://jansteinfeld.github.io/assets/pdf/Datendschutzerklaerung.pdf\">Datenschutz</a>\n"
+                    footer: "<a href=\"/assets/pdf/Datendschutzerklaerung.pdf\">Datenschutz</a>\n"
                 },
                 preferencesModal: {
                     title: "Consent Preferences Center",
