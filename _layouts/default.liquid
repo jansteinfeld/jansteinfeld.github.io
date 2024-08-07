@@ -2,6 +2,7 @@
 <html lang="{{ site.lang }}">
   <!-- Head -->
   <head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
     {% if page.redirect %}
       {% if page.redirect == true %}
         {% assign redirect = site.baseurl | append: '/' %}
@@ -19,7 +20,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ stylesheet }}.css">
     {% endfor %}
   {% endif %}
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orestbida/cookieconsent@3.0.1/dist/cookieconsent.css">
+
   </head>
 
   <!-- Body -->
@@ -80,7 +81,7 @@
     {% include scripts/jekyll_tabs.liquid %}
     {% include scripts/back_to_top.liquid %}
     {% include scripts/search.liquid %}
-    <script src="{{ '/assets/js/shortcut-key.js' | relative_url }}"></script>
-    <script type="module" src="{{ '/assets/js/cookieconsent-config.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/shortcut-key.js' | relative_url }}" defer></script>
+    <script type="module" src="{{ '/assets/js/cookieconsent-config.js' | relative_url }}" defer></script>
   </body>
 </html>
