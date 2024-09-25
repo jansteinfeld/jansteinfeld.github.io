@@ -247,10 +247,11 @@ footer.fixed-bottom a {
 }
 
 footer.fixed-bottom .container {
-    color: #aa66cc;
-    background-color: #404040;
-    padding-top: 9px;
-    padding-bottom: 8px;
-    text-align: center;
+  color: #aa66cc;
+  background-color: #404040;
+  padding-top: 9px;
+  padding-bottom: 8px;
+  text-align: center;
+  min-width: 100%;
 }
   
