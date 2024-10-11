@@ -197,6 +197,9 @@ body {
     font-size: 47px;
   }
   
+  .container {
+    width: auto;
+  }    
 }
 
 @media (min-width: 992px) {
@@ -219,6 +222,9 @@ body {
     font-size: 47px;
   }
   
+  .container {
+    width: auto;
+  }
 }
 
 @media (min-width: 768px) {
@@ -240,7 +246,10 @@ body {
     text-align: left;
     font-size: 47px;
   }
-  
+
+  .container {
+    width: auto;
+  }
 }
 .img-fluid {
   display: none !important;
