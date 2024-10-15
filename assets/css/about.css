@@ -69,6 +69,13 @@
   src: url('../fonts/DepartureMono-Regular.woff2') format('woff2');
 }
 
+ @font-face {
+  font-family: 'Gilbert';
+  src: url('../fonts/Gilbert-Color_COLRv0.ttf');
+}
+.pride {
+  font-family: 'Gilbert'!important;
+}
 
 html,
 body {
