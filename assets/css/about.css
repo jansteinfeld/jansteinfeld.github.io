@@ -269,6 +269,15 @@ body {
     font-size: 11px;
     padding: 4px 6px;
   } */
+  
+  .container[role=main] {
+      max-width: 888px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -40%);
+      padding: 10px;
+  }
 
   .clearfix p {
     text-align: left;
