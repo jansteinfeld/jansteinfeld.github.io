@@ -73,8 +73,14 @@
   font-family: 'Gilbert';
   src: url('../fonts/Gilbert-Color_COLRv0.ttf');
 }
-.pride {
+
+.pridefont {
   font-family: 'Gilbert'!important;
+  /* font-style: italic; */
+}
+
+.normalfont {
+  font-family: 'Grandstander';
 }
 
 html,
@@ -158,7 +164,6 @@ body {
 }
 
 .clearfix p {
-  font-family: Grandstander;
   text-align: left;
   font-size: 64px;
 
@@ -199,7 +204,6 @@ body {
   }
 
   .clearfix p {
-    font-family: Grandstander;
     text-align: left;
     font-size: 47px;
   }
@@ -224,7 +228,6 @@ body {
     float: top !important;
   }
   .clearfix p {
-    font-family: Grandstander;
     text-align: left;
     font-size: 47px;
   }
@@ -249,7 +252,6 @@ body {
     float: top !important;
   }
   .clearfix p {
-    font-family: Grandstander;
     text-align: left;
     font-size: 47px;
   }
@@ -269,7 +271,6 @@ body {
   } */
 
   .clearfix p {
-    font-family: Grandstander;
     text-align: left;
     font-size: 47px;
   }

@@ -16,7 +16,8 @@ social: true # includes social icons at the bottom of the page
 #custom_css: about.css # includes
 ---
 <!-- <body class="{% if page.style %}{{ page.style }} {% endif %}"> -->
-<p class="gilbert">Jan D. Steinfeld</p>
+<!-- <p class="normalfont">Jan D. Steinfeld</p> -->
+<p class="pridefont">Jan D. Steinfeld</p>
 <table>
   <tr><td>Stella-Klein-Löw-Weg 15</td></tr>
   <tr><td>Rund Vier B</td></tr>
