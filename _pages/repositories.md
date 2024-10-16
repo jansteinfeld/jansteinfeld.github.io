@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: Sammlung von einigen Projekten auf GitHub.
+title: repositories auf GitHub
+description: Sammlung von öffentlichen Projekten auf GitHub.
 nav: true
 nav_order: 3
 ---
