@@ -2,9 +2,8 @@
 layout: page
 permalink: /impressum/
 title: Impressum
-description: Angaben gemäß § 5 TMG:
+description: Angaben gemäß § 5 TMG
 nav: false
-nav_order: 5
 ---
 
 ## Kontakt:
