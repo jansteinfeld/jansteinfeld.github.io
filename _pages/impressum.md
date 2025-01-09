@@ -2,28 +2,22 @@
 layout: page
 permalink: /impressum/
 title: Impressum
-description: Impressum
+description: Angaben gemäß § 5 TMG:
 nav: false
 nav_order: 5
 ---
-# Angaben gemäß § 5 TMG:
 
 ## Kontakt:
-- Jan Steinfeld
-- Stella-Klein-Löw-Weg 15
-- Rund Vier B
-- 1020, Wien
-- Österreich
-- jan.steinfeld@bmbwf.gv.at
-- +43 1 533 62 14-4095
+Jan Steinfeld
+Stella-Klein-Löw-Weg 15
+Rund Vier B
+1020, Wien
+Österreich
+jan.steinfeld@bmbwf.gv.at
++43 1 533 62 14-4095
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
-| Jan Steinfeld            |
-| ------------------------ |
-| Stella-Klein-Löw-Weg 15  |
-| Rund Vier B              |
-| 1020, Wien               |
-| Österreich               |
+| Jan Steinfeld | Stella-Klein-Löw-Weg 15 | Rund Vier B | 1020, Wien | Österreich |
 
 
 ## Audiovisuelle Mediendienste
