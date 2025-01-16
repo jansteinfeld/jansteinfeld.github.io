@@ -23,7 +23,7 @@ social: true # includes social icons at the bottom of the page
   <tr><td>Rund Vier B</td></tr>
   <tr><td>1020, Wien</td></tr>
   <tr><td>Österreich</td></tr>
-  <tr><td><i class="fa fa-envelope"></i> <a href="mailto:jan.steinfeld@bmbwf.gv.at?subject=Kontaktanfrage"> jan.steinfeld@bmbwf.gv.at</a></td></tr>
+  <tr><td><i class="fa fa-envelope"></i> <a href="mailto:jan.d.steinfeld@gmail.com?subject=Kontaktanfrage"> jan.d.steinfeld@gmail.com</a></td></tr>
   <tr><td><i class="fa fa-phone-square"></i> +43 1 533 62 14-4095</td></tr>
 </table>
 
