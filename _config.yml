@@ -217,6 +217,7 @@ kramdown:
 include: ["_pages"]
 exclude:
     - _draftpages/
+    - _site/
     - bin/
     - blog.md
     - CONTRIBUTING.md
