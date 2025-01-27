@@ -133,6 +133,12 @@ body {
     padding: 0 0 0 0;
 }
 
+.clearfix p {
+  text-align: left;
+  font-size: 64px;
+}
+
+
 #navbar {
   display: none !important;
 }
@@ -162,12 +168,6 @@ body {
   border: 1px solid;
   border-radius: 8px;
   margin: 6px 12px 6px 0;
-}
-
-.clearfix p {
-  text-align: left;
-  font-size: 64px;
-
 }
 
 .profile img {
@@ -203,11 +203,6 @@ body {
   .profile img {
     float: right !important;
   }
-
-  .clearfix p {
-    text-align: left;
-    font-size: 47px;
-  }
   
   .container {
     width: auto;
@@ -228,10 +223,6 @@ body {
   .profile img {
     float: top !important;
   }
-  .clearfix p {
-    text-align: left;
-    font-size: 47px;
-  }
   
   .container {
     width: auto;
@@ -251,10 +242,6 @@ body {
 
   .profile img {
     float: top !important;
-  }
-  .clearfix p {
-    text-align: left;
-    font-size: 47px;
   }
 
   .container {
@@ -280,11 +267,6 @@ body {
       padding: 10px;
   }
 
-  .clearfix p {
-    text-align: left;
-    font-size: 47px;
-  }
-
   .profile {
     text-align: center;
     /* width: 40%; */
@@ -295,9 +277,6 @@ body {
     float: top !important;
   }
 
-  /* .clearfix p {
-    text-align: center;
-  } */
 }
 
 .post article .clearfix .d-flex {
