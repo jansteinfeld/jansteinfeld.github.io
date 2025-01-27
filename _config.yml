@@ -216,25 +216,26 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
-  - bin/
-  - _draftpages/
-  - CONTRIBUTING.md
-  - CUSTOMIZE.md
-  - Dockerfile
-  - docker-compose.yml
-  - docker-compose-slim.yml
-  - FAQ.md
-  - Gemfile
-  - Gemfile.lock
-  - INSTALL.md
-  - LICENSE
-  - lighthouse_results/
-  - package.json
-  - package-lock.json
-  - purgecss.config.js
-  - README.md
-  - readme_preview/
-  - vendor
+    - _draftpages/
+    - bin/
+    - blog.md
+    - CONTRIBUTING.md
+    - CUSTOMIZE.md
+    - docker-compose-slim.yml
+    - docker-compose.yml
+    - Dockerfile
+    - FAQ.md
+    - Gemfile
+    - Gemfile.lock
+    - INSTALL.md
+    - LICENSE
+    - lighthouse_results/
+    - package-lock.json
+    - package.json
+    - purgecss.config.js
+    - readme_preview/
+    - README.md
+    - vendor
 keep_files:
   - CNAME
   - .nojekyll
