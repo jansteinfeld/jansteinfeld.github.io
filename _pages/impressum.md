@@ -12,7 +12,7 @@ Stella-Klein-Löw-Weg 15
 Rund Vier B
 1020, Wien
 Österreich
-jan.steinfeld@bmbwf.gv.at
+jan.steinfeld@bmb.gv.at
 +43 1 533 62 14-4095
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:
