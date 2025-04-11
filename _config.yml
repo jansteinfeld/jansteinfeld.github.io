@@ -323,10 +323,13 @@ scholar:
   details_link: Details
 
   query: "@*"
-  # group_by: year
-  group_order: descending
-  group_by: none
   sort_by: year
+  order: ascending
+
+  # group_by: year
+  group_by: none
+  group_order: ascending
+  
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
