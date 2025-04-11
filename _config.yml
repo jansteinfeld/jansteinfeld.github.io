@@ -304,7 +304,8 @@ scholar:
   last_name: [Steinfeld]
   first_name: [Jan]
 
-  style: _bibliography/apa.csl
+  # style: _bibliography/apa.csl
+  style: apa
   locale: en
 
   source: /_bibliography/
@@ -322,8 +323,10 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  # group_by: year
   group_order: descending
+  group_by: none
+  sort_by: year
 
 # Display different badges withs stats for your publications
 enable_publication_badges:
