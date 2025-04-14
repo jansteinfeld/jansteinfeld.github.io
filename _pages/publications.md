@@ -11,6 +11,6 @@ nav_order: 2
 <div class="publications">
 
 <!-- {% bibliography %} -->
-{% bibliography --style apa %}
+{% bibliography --style apa-6th-edition %}
 
 </div>
