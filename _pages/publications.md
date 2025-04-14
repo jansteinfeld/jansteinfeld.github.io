@@ -10,7 +10,7 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<!-- {% bibliography %} -->
-{% bibliography --style apa-6th-edition %}
+{% bibliography %}
+<!-- {% bibliography --style apa-6th-edition %} -->
 
 </div>
