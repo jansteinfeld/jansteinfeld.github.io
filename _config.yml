@@ -110,6 +110,7 @@ x_username: # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 sciprofiles: jansteinfeld
+pgp: 23194509084AEAEE278925E0E0BA4821E806B1AC
 contact_note: #> You can even add a little note about which of these is the best way to reach you.
 
 # -----------------------------------------------------------------------------
@@ -303,9 +304,8 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 scholar:
   last_name: [Steinfeld]
   first_name: [Jan]
-
-  # style: _bibliography/apa.csl
-  style: apa
+  style: [/_bibliography/chicago-author-date.csl, modern-language-association]
+  # style: apa
   locale: en
 
   source: /_bibliography/
