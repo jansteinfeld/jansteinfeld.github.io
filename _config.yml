@@ -304,8 +304,9 @@ display_categories: ["blockquotes"] # these categories will be displayed on the 
 scholar:
   last_name: [Steinfeld]
   first_name: [Jan]
-  style: assets/bibliography/chicago-author-date.csl
+  # style: assets/bibliography/chicago-author-date.csl
   # style: apa
+  style: chicago-author-date
   locale: en
 
   source: /_bibliography/
