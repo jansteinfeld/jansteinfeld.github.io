@@ -306,7 +306,7 @@ scholar:
   first_name: [Jan]
   # style: assets/bibliography/chicago-author-date.csl
   # style: apa
-  style: chicago-author-date
+  # style: chicago-author-date
   locale: en
 
   source: /_bibliography/

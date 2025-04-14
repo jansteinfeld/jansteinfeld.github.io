@@ -13,6 +13,4 @@ nav_order: 2
 <!-- {% bibliography %} -->
 {% bibliography --style apa %}
 
-{% bibliography --style chicago-author-date-16th-edition %}
-
 </div>
