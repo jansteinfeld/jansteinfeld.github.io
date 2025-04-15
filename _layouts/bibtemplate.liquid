@@ -1,10 +1,12 @@
 ---
 ---
+<link rel="stylesheet" href="{{ '/assets/css/publication.css' | relative_url | bust_css_cache }}">
+
 <div class="text-justify">{{reference}}</div>
-<button class="button0"  onclick="toggleBibtex{{entry.key}}()">Bibtex</button>
+<button class="btn btn-sm btn-bibtex"  onclick="toggleBibtex{{entry.key}}()">Bibtex</button>
  
 {% if entry.doi %}
-    <a href="{{ entry.doi | prepend: 'http://doi.org/' }}"><input class="button1" type="button" value="doi" /></a>
+    <a href="{{ entry.doi | prepend: 'http://doi.org/' }}"><input class="btn btn-sm btn-doi" type="button" value="doi" /></a>
 {% endif %}
  
 {% if entry.preprint %}
