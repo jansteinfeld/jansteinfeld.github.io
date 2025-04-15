@@ -632,3 +632,12 @@ jsonresume:
   - interests
   - skills
   - projects
+
+# -----------------------------------------------------------------------------
+# Update the uglifier Configuration
+# -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  exclude: ["robots.txt", "assets/js/search/*.js"]
+  uglifier_args:
+    harmony: true
