@@ -34,3 +34,5 @@ nav_order: 5
   * Sigmund Freud Privat Universität (Berlin)
 - Proseminar: Experimentalpsychologisches Praktikum
   * Sigmund Freud Privat Universität (Berlin)
+
+{% bibliography --style apa-6th-edition %}
