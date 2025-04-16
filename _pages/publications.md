@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /publications/
-title: Beiträge
-description: Publikationsverzeichnis
+title: Publikationen
+# description: Publikationsverzeichnis
 nav: true
 nav_order: 2
 ---
