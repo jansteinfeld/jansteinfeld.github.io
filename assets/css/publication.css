@@ -4,6 +4,7 @@
   background-color: #a4059b !important;
   border: 3px solid #9c829b;
   margin-left: 0px;
+  margin-top: 0px;
 }
 .btn-bibtex:hover {
   background-color: #a4059b !important;
@@ -15,9 +16,18 @@
   background-color: #9ea705 !important;
   border: 3px solid #9b9b9a;
   margin-left: 0px;
+  margin-top: 0px;
 }
 
 .btn-doi:hover {
   background-color: #9ea705 !important;
   border: 3px solid #000;
+}
+
+.publications ol.bibliography li {
+  margin-bottom: 8px;
+}
+
+.bibliography {
+  line-height: normal;
 }
