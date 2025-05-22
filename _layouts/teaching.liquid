@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<script>
+  function getRandomColor() {
+    const letters = '0123456789ABCDEF';
+    let color = '#';
+    for (let i = 0; i < 6; i++) {
+      color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+  }
+
+  function colorizeText(id) {
+    const element = document.getElementById(id);
+    const text = element.textContent;
+    let coloredText = '';
+    for (let char of text) {
+      coloredText += `<span style="color:${getRandomColor()}">${char}</span>`;
+    }
+    element.innerHTML = coloredText;
+  }
+
+  colorizeText('bunterText');
+</script>
+
+
+<div class="post" id="bunterText">
+  <header class="post-header" id="bunterText">
+    <h1 class="post-title" id="bunterText">{{ page.title }}</h1>
+    <p class="post-description" id="bunterText">{{ page.description }}</p>
+  </header>
+
+  <article>
+    {{ content }}
+  </article>
+
+  {% if page.related_publications %}
+    <h2 id="bunterText">References</h2>
+    <div class="publications" id="bunterText">
+      {% bibliography --cited_in_order %}
+    </div>
+  {% endif %}
+
+  {% if site.giscus and page.giscus_comments %}
+    {% include giscus.liquid %}
+  {% endif %}
+</div>
+
+

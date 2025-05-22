@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: teaching
 permalink: /Lehre/
 title: Lehre
 description: Übersicht über einige abgehaltene Lehrveranstaltungen und Workshops
