@@ -1,34 +1,14 @@
 ---
 layout: default
 ---
- <script type="text/javascript">
-  function getRandomColor() {
-    const letters = '0123456789ABCDEF';
-    let color = '#';
-    for (let i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-  }
+<header class="post-header">
+  <link rel="stylesheet" href="{{ '/assets/css/teaching.css' | relative_url | bust_css_cache }}">
+</header>
 
-  function colorizeText(id) {
-    const element = document.getElementById(id);
-    const text = element.textContent;
-    let coloredText = '';
-    for (let char of text) {
-      coloredText += `<span style="color:${getRandomColor()}">${char}</span>`;
-    }
-    element.innerHTML = coloredText;
-  }
-
-  colorizeText('bunterText');
-</script>
-
-
-<div class="post" id="bunterText">
-  <header class="post-header" id="bunterText">
-    <h1 class="post-title" id="bunterText">{{ page.title }}</h1>
-    <p class="post-description" id="bunterText">{{ page.description }}</p>
+<div class="post" id="coloredtext">
+  <header class="post-header" id="coloredtext">
+    <h1 class="post-title" id="coloredtext">{{ page.title }}</h1>
+    <p class="post-description" id="coloredtext">{{ page.description }}</p>
   </header>
 
   <article>
@@ -36,8 +16,8 @@ layout: default
   </article>
 
   {% if page.related_publications %}
-    <h2 id="bunterText">References</h2>
-    <div class="publications" id="bunterText">
+    <h2 id="coloredtext">References</h2>
+    <div class="publications" id="coloredtext">
       {% bibliography --cited_in_order %}
     </div>
   {% endif %}
