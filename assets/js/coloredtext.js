@@ -6,7 +6,7 @@ function() {
     "#F3EBA5", // Pastellgelb
     "#94C691", // Pastellgrün
     "#9BD6D9", // Pastellblau
-    "#B4A8E0"  // Pastellviolett
+    "#B4A8E0",  // Pastellviolett
   ];
 
   function colorizeNode(node, colorIndexObj) {
