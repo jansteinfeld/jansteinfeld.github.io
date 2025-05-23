@@ -1,4 +1,4 @@
-function() {
+(function() {
   // Pastellfarben der Pride-Flagge
   const pastelPrideColors = [
     "#ED8E89", // Pastellrot
@@ -6,7 +6,7 @@ function() {
     "#F3EBA5", // Pastellgelb
     "#94C691", // Pastellgrün
     "#9BD6D9", // Pastellblau
-    "#B4A8E0",  // Pastellviolett
+    "#B4A8E0", // Pastellviolett
   ];
 
   function colorizeNode(node, colorIndexObj) {
@@ -25,7 +25,8 @@ function() {
       span.innerHTML = result;
       node.replaceWith(span);
     } else if (node.nodeType === Node.ELEMENT_NODE) {
-      for (let i = 0; i < node.childNodes.length; i++) {
+      // Wichtig: Wir iterieren rückwärts, da sich die childNodes-Liste beim Ersetzen ändern kann
+      for (let i = node.childNodes.length - 1; i >= 0; i--) {
         colorizeNode(node.childNodes[i], colorIndexObj);
       }
     }
