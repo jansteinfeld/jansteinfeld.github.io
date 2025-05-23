@@ -11,39 +11,37 @@
 
   function colorizeNode(node, colorIndexObj) {
     if (node.nodeType === Node.TEXT_NODE) {
-      let result = "";
+      const fragment = document.createDocumentFragment();
       for (let char of node.textContent) {
         if (char.trim() !== "") {
           let color = pastelPrideColors[colorIndexObj.index % pastelPrideColors.length];
-          result += `<span style="color:${color}">${char}</span>`;
+          const span = document.createElement("span");
+          span.style.color = color;
+          span.textContent = char;
+          fragment.appendChild(span);
           colorIndexObj.index++;
         } else {
-          result += char;
+          fragment.appendChild(document.createTextNode(char));
         }
       }
-      const span = document.createElement("span");
-      span.innerHTML = result;
-      node.replaceWith(span);
+      node.parentNode.replaceChild(fragment, node);
     } else if (node.nodeType === Node.ELEMENT_NODE) {
-      // Wichtig: Wir iterieren rückwärts, da sich die childNodes-Liste beim Ersetzen ändern kann
-      for (let i = node.childNodes.length - 1; i >= 0; i--) {
-        colorizeNode(node.childNodes[i], colorIndexObj);
-      }
+      Array.from(node.childNodes).forEach(child => {
+        colorizeNode(child, colorIndexObj);
+      });
     }
   }
 
-  function colorizePridePastellElements() {
-    const elements = document.querySelectorAll('.coloredtext');
-    elements.forEach(element => {
-      // Für jedes Element eigenen Farbindex verwenden, damit Muster pro Element beginnt
+  function colorizePridePastellElementById() {
+    const element = document.getElementById('coloredtext');
+    if (element) {
       colorizeNode(element, { index: 0 });
-    });
+    }
   }
 
-  // Warten, bis das DOM geladen ist
   if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", colorizePridePastellElements);
+    document.addEventListener("DOMContentLoaded", colorizePridePastellElementById);
   } else {
-    colorizePridePastellElements();
+    colorizePridePastellElementById();
   }
 })();
