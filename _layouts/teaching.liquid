@@ -5,12 +5,13 @@ layout: default
   <link rel="stylesheet" href="{{ '/assets/css/teaching.css' | relative_url | bust_css_cache }}">
 </header>
 
-<div class="post" id="coloredtext">
-  <header class="post-header" id="coloredtext">
-    <h1 class="post-title" id="coloredtext">{{ page.title }}</h1>
-    <p class="post-description" id="coloredtext">{{ page.description }}</p>
-  </header>
-
+{% if site.rainbow %}
+  <div class="post" id="coloredtext">
+    <header class="post-header" id="coloredtext">
+      <h1 class="post-title" id="coloredtext">{{ page.title }}</h1>
+      <p class="post-description" id="coloredtext">{{ page.description }}</p>
+    </header>
+{% endif %}
   <article>
     {{ content }}
   </article>
