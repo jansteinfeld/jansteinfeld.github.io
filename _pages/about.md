@@ -25,6 +25,8 @@ social: true # includes social icons at the bottom of the page
   <tr><td>Österreich</td></tr>
   <tr><td><i class="fa fa-envelope"></i> <a href="mailto:jan.d.steinfeld@gmail.com?subject=Kontaktanfrage"> jan.d.steinfeld@gmail.com</a></td></tr>
   <tr><td><i class="fa fa-phone-square"></i> +43 1 533 62 14-4095</td></tr>
+  <tr><td><i class="fa-solid fa-lock"></i> Schlüssel-ID: E806B1AC</td></tr>
+  <tr><td><i class="fa-solid fa-fingerprint"></i> Fingerprint: 2319 4509 084A EAEE 2789  25E0 E0BA 4821 E806 B1AC</td></tr>
 </table>
 
 
