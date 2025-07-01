@@ -52,7 +52,7 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
-rainbow: true
+rainbow: false # set rainbow to true to enable rainbow font and color on the teaching page
 
 # Dimensions
 max_width: 930px
