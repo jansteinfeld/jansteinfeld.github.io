@@ -194,6 +194,29 @@ body {
 /* ############################# */
 /* MEDIA definitions */
 /* ############################# */
+@media only screen and (orientation: landscape) and (max-width: 1200px) {
+  html {
+    font-size: 95%;
+  }
+
+  .content {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 0.9em;
+  }
+
+  .content img {
+    max-width: 100%;
+    height: auto;
+  }
+}
 
 @media (min-width: 1500px) {
   /* .btn {
