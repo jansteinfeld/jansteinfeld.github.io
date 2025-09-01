@@ -200,7 +200,7 @@ body {
 /* MEDIA definitions */
 /* ############################# */
 
-@media (min-width: 1500px) {
+@media (min-width: 1200px) {
   
   .profile {
     float: right;
@@ -209,20 +209,20 @@ body {
   .profile img {
     float: right !important;
   }
-  
+        .container[role=main] {
+          max-width: 888px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -40%);
+          padding: 10px;
+          margin-top: 0px !important
+        }
 
 }
-/* @media (max-width: 1500px) and (min-width: 1200px) { */
-@media (max-width: 1500px){
-  .container[role=main] {
-      max-width: 888px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -40%);
-      padding: 10px;
-      margin-top: 275px!important
-  }
+@media (max-width: 1500px) and (min-width: 1200px) {
+@media (max-width: 1200px){
+
 }
 
 
