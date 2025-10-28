@@ -181,9 +181,12 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 50% !important;
-  width: 300px;
-  height: 300px;
-  max-width: none;
+  /* width: 300px; */
+  /* height: 300px; */
+  /* max-width: none; */
+  max-width: 100%;
+  height: auto;
+  display: block;
   background-clip: padding-box;
   object-fit: cover;
   margin: 7px 0 0 5px;
@@ -221,33 +224,30 @@ body {
 
 }
 @media (max-width: 1500px) and (min-width: 1200px) {
-@media (max-width: 1200px){
+
+  @media (min-width: 992px) {
+    .profile img {
+      float: top !important;
+    }
+    
+  }
+
+  @media (min-width: 768px) {
+      .container[role=main] {
+        max-width: 888px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        padding: 10px;
+        margin-top: 275px!important
+    }
+    
+    .profile img {
+      float: top !important;
+    }
 
 }
-
-
-@media (min-width: 992px) {
-  .profile img {
-    float: top !important;
-  }
-  
-}
-
-@media (min-width: 768px) {
-    .container[role=main] {
-      max-width: 888px;
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -40%);
-      padding: 10px;
-      margin-top: 275px!important
-  }
-  
-  .profile img {
-    float: top !important;
-  }
-
 }
 
 
