@@ -89,30 +89,33 @@
 /* 2. Allgemeine Struktur        */
 /* ----------------------------- */
 
+/* mobile‑first, avoid 100vh bug on iOS Safari in landscape */
 html,
 body {
-  height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+  min-height: 100%;
+  margin: 0;
   font-family: DepartureMono-Regular, monospace;
+  overflow-x: hidden;
 }
 
-/* center only on larger screens; mobile/tablet handled via media queries */
 .container[role=main] {
   max-width: 888px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   padding: 10px;
+  margin: 0 auto;
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
 }
 
 .container[role=contentinfo] {
   width: 100%;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   padding: 10px;
+  margin: 0 auto;
+  position: relative;
+  top: auto;
+  left: auto;
+  transform: none;
 }
 
 .social {
@@ -121,11 +124,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .social .contact-icons {
   font-size: 3rem;
-  margin-bottom: 90px;
+  margin-bottom: 1.5rem;
 }
 
 .clearfix {
@@ -133,11 +137,11 @@ body {
   font-weight: bold;
   display: grid;
   align-content: center;
-  margin-bottom: 0rem;
+  margin-bottom: 0;
 }
 
 .clearfix table td {
-  font-size: .9rem;
+  font-size: 0.9rem;
   font-weight: 300;
   padding: 0;
 }
@@ -147,7 +151,7 @@ body {
   font-size: 64px;
 }
 
-/* navbar is hidden by design in your layout */
+/* navbar hidden by design */
 #navbar {
   display: none !important;
 }
@@ -157,22 +161,20 @@ body {
 }
 
 .row {
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-right: -15px;
   margin-left: -15px;
 }
 
 .mr-1,
 .mx-1 {
-  margin-right: 0px !important;
+  margin-right: 0 !important;
 }
 
 .btn {
   padding: 10px 16px;
   font-size: 18px;
-  margin: 1px;
   border: 1px solid;
   border-radius: 8px;
   margin: 6px 12px 6px 0;
@@ -184,30 +186,30 @@ body {
 
 .profile-section {
   display: flex;
+  flex-direction: column;       /* mobile first */
   align-items: center;
-  justify-content: space-between;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1.5rem;
   max-width: 900px;
   margin: 0 auto;
-  padding: 1rem;
+  padding: 1rem 0;
 }
 
-/* hide the theme’s default responsive image wrapper */
+/* hide theme’s default .img-fluid picture if needed */
 .img-fluid {
   display: none !important;
 }
 
-/* keep Bootstrap container behavior for general layout,
-   but avoid overriding too much */
+/* avoid breaking Bootstrap containers globally */
 .container {
-  width: auto;
+  width: 100%;
 }
 
-/* Profile image as circle */
+/* circular profile image */
 .profile {
   flex-shrink: 0;
-  width: clamp(150px, 20vw, 220px);
-  height: clamp(150px, 20vw, 220px);
+  width: clamp(150px, 40vw, 220px);
+  height: clamp(150px, 40vw, 220px);
   border-radius: 50%;
   overflow: hidden;
   display: flex;
@@ -223,12 +225,8 @@ body {
   display: block;
 }
 
-/* ----------------------------- */
-/* 4. Responsive Anpassungen     */
-/* ----------------------------- */
-
-/* Base: mobile-first tweaks for profile/contact block */
-.profile+.clearfix table {
+/* contact table next to profile */
+.profile + .clearfix table {
   width: 100%;
   max-width: 100%;
   margin: 1rem 0;
@@ -236,13 +234,13 @@ body {
   word-wrap: break-word;
 }
 
-.profile+.clearfix table td a {
+.profile + .clearfix table td a {
   word-break: break-all;
   display: inline-block;
   max-width: 100%;
 }
 
-/* Button group flex behavior */
+/* buttons row */
 .d-flex {
   display: flex;
   flex-wrap: wrap;
@@ -263,37 +261,18 @@ body {
   text-align: center;
 }
 
-/* Global image safety */
+/* universal responsive images */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* <= 768px: phones & small tablets */
-@media (max-width: 768px) {
-  .profile-section {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+/* ----------------------------- */
+/* 4. Responsive Anpassungen     */
+/* ----------------------------- */
 
-  .profile-text {
-    text-align: left;
-    width: 100%;
-  }
-
-  .profile {
-    margin-bottom: 1.5rem;
-  }
-
-  .container[role=main] {
-    position: relative;
-    top: auto;
-    left: auto;
-    transform: none;
-    padding: 10px;
-  }
-
+/* phones and small devices */
+@media (max-width: 575.98px) {
   .pridefont {
     font-size: 1.5rem;
   }
@@ -302,14 +281,20 @@ img {
     font-size: 150%;
   }
 
-  .d-flex .flex-fill {
-    flex: 1 1 calc(50% - 0.25rem);
+  .social {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .social .contact-icons {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
   }
 }
 
-/* >= 576px: slightly larger phones / small tablets */
+/* >= 576px: small tablets / landscape phones */
 @media (min-width: 576px) {
-  .profile+.clearfix table {
+  .profile + .clearfix table {
     font-size: 1rem;
   }
 
@@ -319,8 +304,9 @@ img {
   }
 }
 
-/* >= 768px: tablets (including iPad portrait) */
+/* >= 768px: tablets (including iPad portrait & landscape) */
 @media (min-width: 768px) {
+  /* center the whole card from tablet upwards */
   .container[role=main] {
     max-width: 888px;
     position: absolute;
@@ -330,14 +316,17 @@ img {
   }
 
   .profile-section {
-    max-width: 900px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
   }
 
   .clearfix {
     font-size: 200%;
   }
 
-  .profile+.clearfix table {
+  .profile + .clearfix table {
     margin: 0;
     font-size: 0.95rem;
   }
@@ -347,19 +336,27 @@ img {
   }
 }
 
-/* iPad Pro 11" specific 834px */
+/* iPad Pro 11" 834px fine‑tuning */
 @media (min-width: 834px) and (max-width: 834px) {
   .container[role=main] {
     max-width: 800px;
     transform: translate(-50%, -48%);
   }
+}
 
-  .profile+.clearfix table {
-    font-size: 0.95rem;
+/* tablet landscape specific (all iPads etc.) */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .container[role=main] {
+    transform: translate(-50%, -48%);
+  }
+
+  .profile {
+    width: clamp(150px, 22vw, 230px);
+    height: clamp(150px, 22vw, 230px);
   }
 }
 
-/* >= 992px: desktops */
+/* >= 992px: small desktops */
 @media (min-width: 992px) {
   .container[role=main] {
     max-width: 960px;
@@ -369,7 +366,7 @@ img {
     max-width: 960px;
   }
 
-  .profile+.clearfix table {
+  .profile + .clearfix table {
     font-size: 1rem;
   }
 }
@@ -383,35 +380,10 @@ img {
   }
 }
 
-/* >= 1400px: extra large screens */
+/* >= 1400px: very large screens */
 @media (min-width: 1400px) {
   .container[role=main] {
     max-width: 1320px;
-  }
-}
-
-/* Orientation-specific: iPad landscape */
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .container[role=main] {
-    transform: translate(-50%, -48%);
-  }
-
-  .profile {
-    width: clamp(150px, 18vw, 220px);
-    height: clamp(150px, 18vw, 220px);
-  }
-}
-
-/* Mobile landscape tweaks */
-@media (max-width: 767px) and (orientation: landscape) {
-  .profile {
-    width: clamp(130px, 20vw, 180px);
-    height: clamp(130px, 20vw, 180px);
-    margin: 0 auto 1rem;
-  }
-
-  .d-flex .flex-fill {
-    flex: 1 1 calc(50% - 0.25rem);
   }
 }
 
@@ -422,7 +394,7 @@ img {
 footer.fixed-bottom {
   position: fixed;
   right: 0;
-  bottom: 0px;
+  bottom: 0;
 }
 
 footer.fixed-bottom a {
@@ -441,7 +413,6 @@ footer.fixed-bottom .container {
 symbol:hover {
   color: #0056b3;
   text-decoration: none;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
