@@ -310,7 +310,8 @@ scholar:
   style: apa
   # style: chicago-author-date
   locale: en
-
+  bibtex_options:
+    encoding: utf-8
   source: /_bibliography/
   bibliography: papers.bib
   # bibliography_template: bib
