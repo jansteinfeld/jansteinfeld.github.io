@@ -47,7 +47,7 @@ social: true # includes social icons at the bottom of the page
   <div class="flex-fill auto float-left"><a href="/publications" class="btn btn-secondary rounded-lg">Publikationen</a></div>
   <!-- <div class="flex-fill auto float-left"><a href="/repositories" class="btn btn-secondary rounded-lg">Repositories</a></div> -->
   <div class="flex-fill auto float-left"><a href="/cv" class="btn btn-secondary rounded-lg">cv</a></div>
-  <div class="flex-fill auto float-left"><a href="/Lehre" class="btn btn-secondary rounded-lgs">Lehre</a></div>
+  <!-- <div class="flex-fill auto float-left"><a href="/Lehre" class="btn btn-secondary rounded-lgs">Lehre</a></div> -->
   <!-- <div class="flex-fill auto float-left"><a href="/contact" class="btn btn-secondary">contact</a></div> -->
 </div>
 <!-- <div class="col-sm-6"><a href="/repositories" class="btn btn-primary fa-lg gradient-custom-2 mb-3" style="border: 0px">repositories</a></div> -->

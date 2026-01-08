@@ -168,10 +168,10 @@
     {
       "name": "Veröffentlichte R-pakete",
       "highlights": [
-        "immer",
-        "PP",
-        "tmt",
-        "pwrRasch"
+        "<a href=\"https://alexanderrobitzsch.github.io/immer/\">immer</a>",
+        "<a href=\"https://jansteinfeld.github.io/tmt/\">tmt</a>",
+        "<a href=\"https://jansteinfeld.github.io/PP/\">PP</a>",
+        "<a href=\"https://cran.r-project.org/web/packages/pwrRasch/index.html\">pwrRasch</a>"
       ]
     }
   ]
