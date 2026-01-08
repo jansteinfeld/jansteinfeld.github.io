@@ -49,4 +49,4 @@ jobs:
         with:
           fail: true
           # removed md files that include liquid tags
-          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _pages/projects.md --exclude-path _posts --exclude-path _draftpages --verbose --no-progress './**/*.md' './**/*.html' --exclude-path _site/blog/*
+          args: --user-agent 'curl/7.54' --exclude-path README.md --exclude-path _data/coauthors.yml --exclude-path _pages/404.md --exclude-path _pages/blog.md --exclude-path _pages/projects.md --exclude-path _posts --exclude-path _draftpages --verbose --no-progress './**/*.md' './**/*.html' --exclude-path _site/blog/*
