@@ -99,7 +99,7 @@ body {
 }
 
 .container[role=main] {
-  max-width: 888px;
+  max-width: 780px;
   padding: 10px;
   margin: 0 auto;
   position: relative;
@@ -314,7 +314,6 @@ img {
 @media (min-width: 768px) {
   /* center the whole card from tablet upwards */
   .container[role=main] {
-    max-width: 888px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -345,7 +344,6 @@ img {
 /* iPad Pro 11" 834px fine‑tuning */
 @media (min-width: 834px) and (max-width: 834px) {
   .container[role=main] {
-    max-width: 800px;
     transform: translate(-50%, -48%);
   }
 }
@@ -364,10 +362,6 @@ img {
 
 /* >= 992px: small desktops */
 @media (min-width: 992px) {
-  .container[role=main] {
-    max-width: 960px;
-  }
-
   .profile-section {
     max-width: 960px;
   }
@@ -380,18 +374,12 @@ img {
 /* >= 1200px: large desktops */
 @media (min-width: 1200px) {
   .container[role=main] {
-    max-width: 1140px;
     transform: translate(-50%, -40%);
     margin-top: 0 !important;
   }
 }
 
 /* >= 1400px: very large screens */
-@media (min-width: 1400px) {
-  .container[role=main] {
-    max-width: 1320px;
-  }
-}
 
 /* ----------------------------- */
 /* 5. Footer & Sonstiges         */
